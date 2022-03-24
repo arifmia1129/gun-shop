@@ -1,13 +1,15 @@
 
 .card{
     background-color: #c4c4c4;
-    height: 570px;
+    height: 600px;
     width: 350px;
     padding: 15px;
     position: relative;
     justify-self: center;
     clip-path: polygon(15% 0%, 100% 0, 100% 90%, 85% 100%, 0 100%, 0% 10%);
-    margin: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .img-container{
     width: 300px;
@@ -25,4 +27,13 @@
 
 .info{
     line-height: 15px;
+}
+
+.cart-btn{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    cursor: pointer;
 }

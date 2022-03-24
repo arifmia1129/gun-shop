@@ -10,7 +10,9 @@
     color: white;
     font-weight: bold;
 }
-
+.cart{
+    cursor: pointer;
+}
 .icon{
     font-size: 2rem;
     padding-top: 10px;

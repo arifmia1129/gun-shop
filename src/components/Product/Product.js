@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Product.css";
-
-const Product = ({ product }) => {
+import { BsCartDash } from 'react-icons/bs';
+const Product = ({ product, addToCart }) => {
     const { name, price, img, action, category, bullet } = product;
     return (
         <div>
@@ -15,6 +15,9 @@ const Product = ({ product }) => {
                     <p>Action : {action}</p>
                     <p>Bullet : {bullet}</p>
                     <h2>{price}$</h2>
+                    <button onClick={() => addToCart(product)} className='cart-btn'>
+                        <BsCartDash ></BsCartDash>
+                    </button>
                 </div>
             </div>
         </div>
